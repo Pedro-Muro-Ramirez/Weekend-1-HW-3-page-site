@@ -18,9 +18,7 @@
   flex-basis: calc(100% / 3);
 }
 .two-third {
-    flex-basis: {
-        calc(100% / 3 * 2)
-    };
+  flex-basis: calc(100% / 3 * 2);
 }
 .fifty {
   flex-basis: calc(100% / 2);
@@ -30,6 +28,16 @@
 }
 .text-center {
   text-align: center;
+}
+.sub {
+  min-height: 100px;
+  flex-basis: calc(100% / 3 - 10px);
+  margin: 5px;
+}
+.right-sub {
+  max-height: 100px;
+  flex-basis: calc(100% - 10px);
+  margin: 5px;
 }
 .topnav {
   background-color: #cbd4c2;
