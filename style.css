@@ -2,8 +2,25 @@
   display: flex;
   flex-flow: row wrap;
 }
+.bg-tuscan {
+  background-color: #815355;
+}
+.bg-raisen {
+  background-color: #24191a;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-purple {
+  background-color: purple;
+}
 .one-third {
   flex-basis: calc(100% / 3);
+}
+.two-third {
+    flex-basis: {
+        calc(100% / 3 * 2)
+    };
 }
 .fifty {
   flex-basis: calc(100% / 2);
