@@ -5,22 +5,28 @@
 .one-third {
   flex-basis: calc(100% / 3);
 }
+.fifty {
+  flex-basis: calc(100% / 2);
+}
+.font-white {
+  color: white;
+}
 .text-center {
   text-align: center;
 }
 .topnav {
   background-color: #cbd4c2;
-  height: 50px;
+  height: 100px;
 }
 .topnav a {
   font-size: 25px;
   text-decoration: none;
 }
 #company-info {
-  background-color: orange;
+  background-color: #c3b299;
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 50px;
+  height: 100px;
   width: 100%;
 }
