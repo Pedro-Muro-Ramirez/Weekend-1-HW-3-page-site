@@ -5,9 +5,13 @@
 nav {
   background-color: cadetblue;
   font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
 }
 #mouse:hover {
   color: white;
+}
+#mouse {
+  padding: 0px 30px;
 }
 .flex {
   display: flex;
