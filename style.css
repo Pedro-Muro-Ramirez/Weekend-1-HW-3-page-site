@@ -82,6 +82,13 @@ nav {
   flex-basis: calc(100% / 2 - 10px);
   margin: 5px;
 }
+.image-size {
+  max-width: 75px;
+  float: left;
+}
+.info-size {
+  font-size: 16px;
+}
 .main-input {
   margin: auto;
   height: 480px;
