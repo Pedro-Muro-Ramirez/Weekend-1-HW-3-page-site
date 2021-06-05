@@ -72,13 +72,16 @@ nav {
 .eighty-five {
   flex-basis: 85%;
 }
+.sales-menu {
+  align-self: flex-start;
+}
 .sale-item {
   max-height: 100px;
   flex-basis: calc(100% - 10px);
   margin: 5px;
 }
 .items-info {
-  max-height: 100px;
+  min-height: 85px;
   flex-basis: calc(100% / 2 - 10px);
   margin: 5px;
 }
