@@ -1,13 +1,9 @@
 * {
   margin: 0;
+  padding: 0;
 }
-.topnav {
-  background-color: #cbd4c2;
-  height: 100px;
-}
-.topnav a {
-  font-size: 25px;
-  text-decoration: none;
+nav {
+  background-color: cadetblue;
 }
 .flex {
   display: flex;
@@ -25,6 +21,9 @@
 .bg-purple {
   background-color: purple;
 }
+.whole {
+  flex-basis: 100%;
+}
 .one-third {
   flex-basis: calc(100% / 3);
 }
@@ -40,6 +39,12 @@
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
 .sub {
   min-height: 100px;
   flex-basis: calc(100% / 3 - 10px);
@@ -52,6 +57,16 @@
 }
 .grow {
   flex-grow: 1;
+}
+.main-input {
+  margin: auto;
+  height: 480px;
+  width: 50%;
+  background-color: coral;
+  border: 3px solid black;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 #company-info {
   background-color: #c3b299;

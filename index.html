@@ -14,10 +14,35 @@
     <link type="text/css" rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="topnav">
-      <a href="index.html">Home</a>
-      <a href="about.html">Sale</a>
-      <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sale.html">Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="main-container flex">
       <div class="left-container two-third bg-raisen flex">
@@ -47,8 +72,8 @@
       </div>
       <div class="bottom-center fifty">
         <h3>Office hours:</h3>
-        <p class="font-white">Monday-Friday<br />8am - 5pm</p>
-        <p class="font-white">Saturday & Sunday<br />Closed</p>
+        <p class="font-white">Monday-Sunday<br />8am - 5pm</p>
+        <!-- <p class="font-white">Saturday & Sunday<br />Closed</p> -->
       </div>
     </footer>
   </body>
