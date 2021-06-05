@@ -104,9 +104,6 @@ nav {
 }
 #company-info {
   background-color: #c3b299;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
+  flex: 1 0 auto;
   width: 100%;
 }
