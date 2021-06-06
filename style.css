@@ -15,7 +15,7 @@ nav {
   font-family: "Times New Roman", Times, serif;
 }
 .nav-item .active {
-  background-color: red;
+  background-color: rgb(129, 129, 199);
 }
 #mouse:hover {
   color: white;
@@ -54,6 +54,9 @@ nav {
 .font-white {
   color: white;
 }
+.mono {
+  font-family: monospace;
+}
 .text-center {
   text-align: center;
 }
@@ -63,14 +66,19 @@ nav {
 .text-right {
   text-align: right;
 }
+.main-container {
+  margin: 5px;
+}
 .sub {
   min-height: 100px;
   flex-basis: calc(100% / 3 - 10px);
+  flex-grow: 1;
   margin: 5px;
 }
 .right-sub {
-  max-height: 100px;
+  min-height: 100px;
   flex-basis: calc(100% - 10px);
+  flex-grow: 1;
   margin: 5px;
 }
 .grow {
@@ -102,6 +110,9 @@ nav {
   max-width: 75px;
   float: left;
 }
+.image-size:hover {
+  transform: scale(3.3);
+}
 .paragraph {
   font-family: "Roboto Mono", monospace;
   font-size: 16px;
@@ -117,6 +128,9 @@ nav {
   color: black;
   text-decoration: none;
 }
+.contact-main {
+  margin: 5px;
+}
 .main-input {
   margin: auto;
   height: 480px;
@@ -128,8 +142,18 @@ nav {
   color: white;
 }
 #company-info {
-  background-color: #c3b299;
-  flex: 1;
+  background-image: url(https://cdn.pixabay.com/photo/2018/07/01/20/01/mercedes-3510327_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+#comment-form {
+  height: 100%;
+  width: 100%;
+}
+.footer-image {
   width: 100%;
 }
 @media (max-width: 740px) {
@@ -152,13 +176,23 @@ nav {
 }
 @media (max-width: 580px) {
   .bottom-left {
-    flex-basis: calc(100% - 10px);
-    width: 100vw;
-    min-height: 100px;
+    flex-basis: 100%;
   }
 }
 @media (max-width: 580px) {
   .items-info {
     flex-basis: calc(100% - 10px);
+  }
+}
+@media (max-width: 580px) {
+  .main-input {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .radio {
+    flex-basis: 100%;
+    align-content: flex-start;
+    text-align: left;
   }
 }
