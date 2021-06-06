@@ -14,6 +14,9 @@ nav {
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
 }
+.nav-item .active {
+  background-color: red;
+}
 #mouse:hover {
   color: white;
 }
