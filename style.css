@@ -74,10 +74,12 @@ nav {
   flex-grow: 1;
 }
 .fifteen {
-  flex-basis: 15%;
+  flex-basis: calc(15% - 10px);
+  margin: 5px;
 }
 .eighty-five {
-  flex-basis: 85%;
+  flex-basis: calc(85% - 10px);
+  margin: 5px;
 }
 .sales-menu {
   align-self: flex-start;
