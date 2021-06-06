@@ -102,6 +102,16 @@ nav {
   font-size: 16px;
   color: white;
 }
+.sale-links {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-button {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
 .main-input {
   margin: auto;
   height: 480px;
