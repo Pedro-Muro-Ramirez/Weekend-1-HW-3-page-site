@@ -117,3 +117,33 @@ nav {
   flex: 1;
   width: 100%;
 }
+@media (max-width: 740px) {
+  .sub {
+    flex-basis: calc(100% / 2 - 10px);
+  }
+}
+@media (max-width: 580px) {
+  .sub {
+    flex-basis: calc(100% - 10px);
+    width: 100vw;
+  }
+}
+@media (max-width: 580px) {
+  .right-sub {
+    flex-basis: calc(100% - 10px);
+    width: 100vw;
+    min-height: 100px;
+  }
+}
+@media (max-width: 580px) {
+  .bottom-left {
+    flex-basis: calc(100% - 10px);
+    width: 100vw;
+    min-height: 100px;
+  }
+}
+@media (max-width: 580px) {
+  .items-info {
+    flex-basis: calc(100% - 10px);
+  }
+}
