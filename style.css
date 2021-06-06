@@ -86,6 +86,7 @@ nav {
   max-height: 100px;
   flex-basis: calc(100% - 10px);
   margin: 5px;
+  color: white;
 }
 .items-info {
   min-height: 85px;
@@ -96,8 +97,10 @@ nav {
   max-width: 75px;
   float: left;
 }
-.info-size {
+.paragraph {
+  font-family: "Roboto Mono", monospace;
   font-size: 16px;
+  color: white;
 }
 .main-input {
   margin: auto;
